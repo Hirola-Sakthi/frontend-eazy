@@ -1,0 +1,145 @@
+
+
+.sales-order-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.sales-order-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 80px;
+}
+
+.sales-order-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.sales-order-content {
+  flex: 1;
+  color: #ffffff;
+}
+
+.sales-order-content h2 {
+font-size: 63px;
+    line-height: 67px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.sales-order-content p {
+    margin-top: 25px;
+    width: 90%;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+
+.sales-order-btn-group {
+  display: flex;
+  gap: 20px;
+}
+
+.sales-order-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(180deg, #1338fe 0%, #2a2a72 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.sales-order-outline-btn {
+  color: #000;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* .sales-order-btn-primary {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.sales-order-btn-primary:hover {
+  background-color: #eaeaea;
+  transform: translateY(-2px);
+}
+
+.sales-order-btn-secondary {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.sales-order-btn-secondary:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transform: translateY(-2px);
+} */
+
+
+.sales-order-image {
+  flex: 1;
+  text-align: right;
+}
+
+.sales-order-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+
+@media (max-width: 1024px) {
+  .sales-order-row {
+    gap: 40px;
+  }
+
+  .sales-order-content h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sales-order-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sales-order-content p {
+    max-width: 100%;
+  }
+
+  .sales-order-btn-group {
+    justify-content: center;
+  }
+
+  .sales-order-image {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sales-order-content h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .sales-order-btn {
+    padding: 12px 28px;
+    font-size: 13px;
+  }
+}

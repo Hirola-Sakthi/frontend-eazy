@@ -1,0 +1,222 @@
+.connect-conquer-section {
+  padding: 80px 20px;
+}
+
+.connect-conquer-wrapper {
+  margin: auto;
+  max-width: 1140px;
+  border-radius: 16px;
+  background-color: #025ace;
+  text-align: center;
+  padding: 60px 20px;
+  color: #fff;
+  background-image: url(/assets/images/common/connect-conquer-bg-img.png);
+  background-size: cover;
+  background-position-y: -38px;
+}
+
+.connect-conquer-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.connect-conquer-subtitle {
+  font-size: 28px;
+  line-height: 32px;
+  margin-top: 10px;
+}
+
+.connect-conquer-desc {
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+.connect-conquer-scroll {
+  max-width: 900px;
+  overflow: hidden;
+  margin: 40px auto;
+}
+
+.connect-conquer-track {
+  display: flex;
+  gap: 15px;
+  width: max-content;
+  animation: scrollIcons 25s linear infinite;
+}
+
+.integration-icon {
+  min-width: 75px;
+  height: 100px;
+  background-image: url(/assets/images/common/connect-conquer-scroll-icons.png);
+  background-repeat: no-repeat;
+  background-size: 1638px 471px;
+  margin-left: 20px;
+}
+
+.integration-payroll {
+  background-position: -1248px -1px;
+}
+.integration-hr {
+  background-position: -1365px -1px;
+}
+.integration-crm {
+  background-position: -1130px -1px;
+}
+.integration-banking {
+  background-position: -1470px -1px;
+}
+.integration-gst {
+  background-position: -560px -1px;
+}
+.integration-expense {
+  background-position: -905px -1px;
+}
+.integration-uber {
+  background-position: -790px -1px;
+}
+.integration-microsoft {
+  background-position: -1020px -1px;
+}
+.integration-box {
+  background-position: -675px -1px;
+}
+.integration-razorpay {
+  background-position: -110px -1px;
+}
+.integration-paypal {
+  background-position: -330px -1px;
+}
+.integration-easypay {
+  background-position: -456px -1px;
+}
+.integration-paytm {
+  background-position: -220px -1px;
+}
+.integration-lynx {
+  background-position: -1020px -1px;
+}
+
+@keyframes scrollIcons {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.connect-conquer-link {
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  opacity: 0.7;
+}
+
+.connect-conquer-link:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .connect-conquer-section {
+    padding: 60px 16px;
+  }
+
+  .connect-conquer-wrapper {
+    padding: 50px 20px;
+    background-position-y: center;
+  }
+
+  .connect-conquer-subtitle {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .connect-conquer-desc {
+    font-size: 14px;
+  }
+
+  .connect-conquer-scroll {
+    max-width: 100%;
+  }
+
+  .integration-icon {
+    min-width: 75px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .connect-conquer-section {
+    padding: 40px 12px;
+  }
+
+  .connect-conquer-wrapper {
+    padding: 40px 16px;
+    border-radius: 12px;
+    background-position: center;
+  }
+
+  .connect-conquer-title {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+  }
+
+  .connect-conquer-subtitle {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .connect-conquer-desc {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .connect-conquer-scroll {
+    margin: 30px auto;
+    overflow: hidden;
+  }
+
+  .connect-conquer-track {
+    animation-duration: 20s;
+  }
+
+  .integration-icon {
+    min-width: 75px;
+    height: 85px;
+    background-size: 1638px 471px;
+  }
+
+  .connect-conquer-link {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .connect-conquer-wrapper {
+    padding: 32px 14px;
+  }
+
+  .connect-conquer-subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .connect-conquer-desc {
+    font-size: 12px;
+  }
+
+  .integration-icon {
+    min-width: 74px;
+    height: 72px;
+  }
+
+  .connect-conquer-track {
+    gap: 10px;
+    animation-duration: 18s;
+  }
+}

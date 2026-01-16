@@ -1,0 +1,352 @@
+/* AccSoftBanBelow Styles */
+.RestaurentBannerBelow-parent {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.RestaurentBannerBelow-parent h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.RestaurentBannerBelow-parent p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-below-image {
+  margin-top: 30px;
+}
+
+.banner-below-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* AccSoftware / BillingSoftware Styles */
+.BillingSoftware-parent {
+  padding: 80px 20px;
+}
+
+.BillingSoftware-sub {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.BillingSoftware-sub h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.BillingSoftware-sub p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.BillingSoftware-content {
+  margin-top: 40px;
+}
+
+.BillingSoftware-content-sub {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.BillingSoftware-content-sub:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.BillingSoftware-content-image img,
+.BillingSoftware-content-icon i {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.BillingSoftware-content-sub h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.BillingSoftware-content-sub p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* HomeFeatures Styles */
+.HomeFeatures-parent {
+  padding: 80px 20px;
+}
+
+.HomeFeatures-sub {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.HomeFeatures-sub h6 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #6c63ff;
+  margin-bottom: 10px;
+}
+
+.HomeFeatures-sub h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.HomeFeatures-sub p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.HomeFeatures-content-sub {
+  display: flex;
+  gap: 15px;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.HomeFeatures-content-sub:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.HomeFeatures-content-sub-image img,
+.HomeFeatures-content-sub-icon i {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.HomeFeatures-content-sub h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.HomeFeatures-content-sub p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Process Section Styles */
+.process-section-parent {
+  padding: 80px 20px;
+}
+
+.process-section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.process-section-header h6 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #6c63ff;
+  margin-bottom: 10px;
+}
+
+.process-section-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.process-section-header p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.process-section-image {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.process-section-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.process-steps {
+  margin-top: 50px;
+}
+
+.process-step-card {
+  text-align: center;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+}
+
+.process-step-image img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.process-step-card h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.process-step-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Why Section Styles */
+.why-section-parent {
+  padding: 80px 20px;
+}
+
+.why-section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.why-section-header h6 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #6c63ff;
+  margin-bottom: 10px;
+}
+
+.why-section-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.why-section-header p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.why-section-content {
+  margin-top: 50px;
+}
+
+.why-section-card {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.why-section-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.why-section-number {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #6c63ff;
+  margin-bottom: 20px;
+}
+
+.why-section-image img,
+.why-section-icon i {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.why-section-card h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.why-section-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.why-section-footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.why-section-footer .btn {
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+
+/* Custom Section Styles */
+.custom-section {
+  padding: 80px 20px;
+}
+
+.custom-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.custom-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.custom-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .RestaurentBannerBelow-parent h2,
+  .BillingSoftware-sub h2,
+  .HomeFeatures-sub h2,
+  .process-section-header h2,
+  .why-section-header h2 {
+    font-size: 2rem;
+  }
+
+  .BillingSoftware-content-sub,
+  .process-step-card,
+  .why-section-card {
+    margin-bottom: 20px;
+  }
+
+  .HomeFeatures-content-sub {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .HomeFeatures-content-sub-image img {
+    margin: 0 auto;
+  }
+}

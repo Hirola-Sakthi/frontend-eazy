@@ -1,0 +1,217 @@
+.security-management-section {
+  width: 100%;
+  padding: 50px 20px;
+  background: #ffffff;
+}
+
+.security-management-container {
+  max-width: 1280px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.security-management-left,
+.security-management-right {
+  position: relative;
+  min-height: 420px;
+}
+
+.security-management-center {
+  text-align: center;
+}
+
+.security-management-center h2 {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  letter-spacing: -1.7px;
+}
+
+.security-management-center .highlight {
+  background: #e5e7eb;
+  color: #1d4ed8;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.security-management-center p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 30px;
+  letter-spacing: -0.2px;
+}
+
+.security-management-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(180deg, #1338fe 0%, #2a2a72 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.security-bg-item {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  animation: float 6s ease-in-out infinite;
+}
+
+.security-bg-item p {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  text-align: center;
+}
+
+.security-bg-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.security-bg-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.bg-cirle-1 { background: #e9eaf8; }
+.bg-cirle-2 { background: #d7f4ec; }
+.bg-cirle-3 { background: #faedf4; }
+.bg-cirle-4 { background: #fdefeb; }
+.bg-cirle-5 { background: #ffedde; }
+.bg-cirle-6 { background: #e5eef8; }
+
+
+.icon-blue   { color: #1d4ed8; }
+.icon-green  { color: #059669; }
+.icon-pink   { color: #db2777; }
+.icon-orange { color: #ea580c; }
+.icon-yellow { color: #ca8a04; }
+.icon-sky    { color: #0284c7; }
+
+
+.item-1 { top: 40px; left: 250px; }
+.item-2 { top: 180px; right: 140px; }
+.item-3 { bottom: -30px; left: 260px; }
+.item-4 { top: 40px; right: 250px; }
+.item-5 { top: 180px; left: 140px; }
+.item-6 { bottom: -30px; right: 260px; }
+
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+@media (max-width: 992px) {
+  .security-management-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .security-management-left,
+  .security-management-right {
+    min-height: auto;
+  }
+
+  .security-bg-item {
+    position: relative;
+    animation: none;
+    margin-bottom: 25px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .item-1 { left: 180px; }
+  .item-2 { right: 100px; }
+  .item-3 { left: 190px; }
+
+  .item-4 { right: 180px; }
+  .item-5 { left: 100px; }
+  .item-6 { right: 190px; }
+}
+
+@media (max-width: 992px) {
+  .security-management-container {
+    grid-template-columns: 1fr;
+    gap: 60px;
+    text-align: center;
+  }
+
+  .security-management-left,
+  .security-management-right {
+    min-height: auto;
+  }
+
+  .security-bg-item {
+    position: relative;
+    inset: auto;
+    animation: none;
+    margin-bottom: 25px;
+  }
+
+  .security-bg-icon {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .security-management-center h2 {
+    font-size: 36px;
+  }
+
+  .security-management-center p {
+    font-size: 16px;
+  }
+
+  .security-bg-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .security-bg-icon svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .security-management-left, .security-management-right{
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .security-management-section {
+    padding: 70px 15px;
+  }
+
+  .security-management-center h2 {
+    font-size: 28px;
+    letter-spacing: -1px;
+  }
+
+  .security-management-btn {
+    width: 55%;
+    justify-content: center;
+  }
+
+  .security-bg-item p {
+    font-size: 13px;
+  }
+}

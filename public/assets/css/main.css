@@ -1,0 +1,62 @@
+/* Import uni-core components */
+@import url("./uni-core.min.css");
+
+/* Import additional styles */
+@import url("./unicons.min.css");
+@import url("./prettify.min.css");
+@import url("./swiper-bundle.min.css");
+
+/* Import main style */
+@import url("./theme/main.min.purge.css");
+@import "swiper/css/virtual";
+@import "swiper/css";
+/* @import "swiper/css/thumbs"; */
+@import "swiper/css/effect-fade";
+@import "./theme/BannerBelowSection.css";
+@import "./theme/map-card-section.css";
+@import "./theme/integration-section.css";
+@import "./theme/ai-section.css";
+@import "./theme/about-us.css";
+@import "./theme/about-values.css";
+@import "./theme/what-we-believe.css";
+@import "./theme/career.css";
+@import "./theme/automate-smarter.css";
+@import "./theme/contact-map-section.css";
+@import "./theme/sales-order.css";
+@import "./theme/security-management.css";
+@import "./theme/spot-light.css";
+@import "./theme/choose-privacy.css";
+@import "./theme/mobile-app-section.css";
+@import "./theme/business-scroll.css";
+@import "./theme/connect-conquer.css";
+@import "./theme/hr-software.css";
+@import "./theme/digital-adoption.css";
+@import "./theme/workforce.css";
+@import "./theme/eazy-grow.css";
+@import "./theme/smarter-banner.css";
+@import "./theme/automated-share.css";
+@import "./theme/to-do-app.css";
+@import "./theme/one-platform.css";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

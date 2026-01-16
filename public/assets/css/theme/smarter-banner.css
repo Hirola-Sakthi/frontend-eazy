@@ -1,0 +1,178 @@
+.smarter-banner-section {
+  background-color: #fff;
+  padding: 60px 20px 40px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.smarter-banner-title {
+  font-size: 60px;
+  color: #111;
+  letter-spacing: -1.8px;
+  line-height: 1.1;
+  max-width: 650px;
+  margin: 0 auto 20px auto;
+  font-weight: 500;
+}
+
+.smarter-banner-features-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.smarter-banner-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.smarter-banner-feature-icon {
+  width: 32px;
+  height: 32px;
+  background-color: rgba(13, 108, 249, 0.25);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.smarter-banner-feature-icon span img {
+  width: 18px;
+  height: 18px;
+}
+
+.smarter-banner-feature-item p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.smarter-banner-banner-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.smarter-banner-primary-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(180deg, #1338fe 0%, #2a2a72 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.smarter-banner-secondary-btn {
+  position: relative;
+  padding: 12px 24px 12px 50px;
+  background-color: transparent;
+  color: #010101;
+  border: 2px solid #2a2a72;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.smarter-banner-secondary-btn .smarter-banner-circle-border {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border: 2px solid #010101;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.smarter-banner-secondary-btn .smarter-banner-circle-border img {
+  width: 12px;
+  height: 12px;
+  display: block;
+}
+
+.smarter-banner-banner-image img {
+  margin-top: 40px;
+  max-width: 70%;
+  height: auto;
+  display: inline-block;
+}
+
+@media (max-width: 1200px) {
+  .smarter-banner-title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .smarter-banner-title {
+    font-size: 42px;
+  }
+  .smarter-banner-banner-image img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .smarter-banner-title {
+    font-size: 36px;
+  }
+  .smarter-banner-features-list {
+    gap: 20px;
+  }
+  .smarter-banner-primary-btn,
+  .smarter-banner-secondary-btn {
+    width: 32%;
+    justify-content: center;
+  }
+  .smarter-banner-banner-image img {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .smarter-banner-title {
+    font-size: 28px;
+  }
+  .smarter-banner-feature-item {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .smarter-banner-feature-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .smarter-banner-feature-icon span img {
+    width: 14px;
+    height: 14px;
+  }
+  .smarter-banner-banner-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .smarter-banner-banner-image img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .smarter-banner-primary-btn,
+  .smarter-banner-secondary-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

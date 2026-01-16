@@ -1,0 +1,253 @@
+.hr-hero-section {
+  background: url(/assets/images/common/hr-software-section-bg-img.jpg) no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  padding: 140px 0 26%;
+  position: relative;
+}
+
+.hr-hero-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.hero-card {
+  background: #fff;
+  border: 1px solid #e4e9f6;
+  max-width: 570px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 14px;
+  margin: 0 auto 20px;
+  cursor: pointer;
+}
+
+.hero-col {
+  font-size: 16px;
+  letter-spacing: -0.4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-col-wide {
+  flex-shrink: 0;
+}
+
+.hero-logo img {
+  height: 28px;
+  display: block;
+}
+
+.hero-video {
+  margin-left: auto;
+}
+
+.play-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #e9f0ff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #1b33a5;
+  font-weight: 500;
+}
+
+.play-icon {
+  width: 24px;
+  height: 24px;
+  background: #025ace;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content h1 {
+  max-width: 620px;
+  margin: 20px auto 12px;
+  font-size: 60px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  letter-spacing: -0.4px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn-primary {
+  background: #1b33a5;
+  color: #fff;
+  border: none;
+  padding: 14px 26px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #1b33a5;
+  border: 1px solid #1b33a5;
+  padding: 14px 26px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-with-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.brand-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  padding: 56px 0 0;
+  gap: 15px 70px;
+}
+
+.brand-logos img {
+  height: 32px;
+  opacity: 0.7;
+}
+
+/* ========== Large screens (default already handled) ========== */
+/* No change needed */
+
+
+/* ========== Laptops (≤1200px) ========== */
+@media (max-width: 1200px) {
+  .hero-content h1 {
+    font-size: 52px;
+  }
+
+  .hr-hero-section {
+    padding: 120px 0 24%;
+  }
+}
+
+
+/* ========== Tablets (≤991px) ========== */
+@media (max-width: 991px) {
+  .hr-hero-section {
+    background-size: cover;
+    padding: 100px 0 22%;
+  }
+
+  .hero-content h1 {
+    font-size: 44px;
+  }
+
+  .hero-card {
+    max-width: 100%;
+  }
+
+  .brand-logos {
+    gap: 20px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hr-hero-section {
+    padding: 90px 0 20%;
+    background-position: center bottom;
+  }
+
+  .hero-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .hero-video {
+    margin-left: 0;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+  }
+
+  .hero-buttons {
+    flex-wrap: wrap;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .brand-logos img {
+    height: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hr-hero-section {
+    padding: 80px 0 18%;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .hero-card {
+    padding: 12px;
+  }
+
+  .play-pill {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .brand-logos {
+    padding-top: 40px;
+    gap: 15px 30px;
+  }
+
+  .brand-logos img {
+    height: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-content h1 {
+    font-size: 26px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+}

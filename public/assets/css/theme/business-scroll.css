@@ -1,0 +1,307 @@
+.business-section {
+  padding: 80px 0;
+  background-color: #000;
+}
+
+.business-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.business-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #999899;
+  max-width: 480px;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+.business-flex {
+  display: flex;
+  gap: 38px;
+}
+
+.customer-slider {
+  flex-basis: 66%;
+  display: flex;
+  flex-direction: column;
+  max-height: 428px;
+  border: 1px solid #3a3a3a;
+  border-radius: 16px;
+  padding-top: 15px;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.customer-card {
+  display: flex;
+  padding: 18px 35px;
+  gap: 25px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.customer-business-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.business-highlight {
+  flex-basis: 31%;
+  background-color: #1c1c1c80;
+  border: 1px solid #3a3a3a;
+  border-radius: 16px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 50px;
+  padding: 70px 25px 90px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.highlight-icon {
+  width: 44px;
+  margin: 0 auto 25px;
+  display: block;
+}
+
+.business-logos {
+  background: url("/assets/images/common/business-logo-below-img.png") repeat-x;
+  max-width: 1138px;
+  height: 71px;
+  background-size: 1157px 71px;
+  margin: 30px auto 0;
+  position: relative;
+}
+
+.scroll-img {
+  width: 92px;
+}
+
+.scroll-content {
+  color: #fff;
+  max-width: 340px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.scroll-content-name {
+  font-weight: 500;
+  font-size: 15px;
+  color: #a1a1a1;
+  line-height: 25px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.customer-slider {
+  flex-basis: 66%;
+  max-height: 428px;
+  overflow: hidden;
+  border: 1px solid #3a3a3a;
+  border-radius: 16px;
+  padding-top: 15px;
+  position: relative;
+}
+
+.customer-slider-track {
+  display: flex;
+  flex-direction: column;
+  animation: slideUpInfinite 15s linear infinite;
+  animation-play-state: initial;
+  will-change: transform;
+}
+
+.scroll-name-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.scroll-brand-img {
+  height: 18px;
+  width: auto;
+  display: block;
+}
+
+.business-highlight span {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+  color: #000;
+  display: block;
+}
+
+@keyframes slideUpInfinite {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.customer-slider:hover .customer-slider-track {
+  animation-play-state: paused;
+}
+
+.business-logos:hover {
+  animation-play-state: paused;
+}
+
+@media (max-width: 1024px) {
+  .business-flex {
+    gap: 24px;
+  }
+
+  .customer-slider {
+    flex-basis: 60%;
+    max-height: 380px;
+  }
+
+  .business-highlight {
+    flex-basis: 38%;
+    font-size: 34px;
+    line-height: 42px;
+    padding: 60px 20px 70px;
+  }
+
+  .business-title {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .scroll-content {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .business-section {
+    padding: 60px 0;
+  }
+
+  .business-title {
+    font-size: 22px;
+    line-height: 32px;
+    max-width: 100%;
+  }
+
+  .business-flex {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .customer-slider,
+  .business-highlight {
+    flex-basis: 100%;
+  }
+
+  .customer-slider {
+    max-height: 320px;
+  }
+
+  .customer-card {
+    padding: 16px 20px;
+    gap: 16px;
+  }
+
+  .scroll-img {
+    width: 72px;
+  }
+
+  .scroll-content {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .scroll-content-name {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .business-highlight {
+    font-size: 30px;
+    line-height: 38px;
+    padding: 50px 20px 60px;
+  }
+
+  .highlight-icon {
+    width: 38px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .business-section {
+    padding: 40px 0;
+  }
+
+  .business-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .customer-slider {
+    max-height: 280px;
+  }
+
+  .customer-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .scroll-img {
+    width: 64px;
+  }
+
+  .scroll-content {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .business-highlight {
+    font-size: 26px;
+    line-height: 34px;
+    padding: 40px 16px 50px;
+  }
+
+  .business-logos {
+    height: 55px;
+    background-size: 900px 55px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .business-logos {
+    max-width: 100%;
+    overflow: hidden;
+    background-repeat: repeat-x;
+    animation: logoScroll 18s linear infinite;
+  }
+}
+
+@media (max-width: 480px) {
+  .business-logos {
+    animation-duration: 14s;
+  }
+}
+
+@keyframes logoScroll {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -1157px;
+  }
+}

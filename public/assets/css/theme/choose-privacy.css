@@ -1,0 +1,38 @@
+.choose-privacy {
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+
+.choose-privacy-content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.privacy-icon {
+  width: 30px;
+  margin-bottom: 16px;
+}
+
+.privacy-title {
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.privacy-desc {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.privacy-image {
+  width: 90%;
+  height: auto;
+  max-width: 600px;
+  margin: auto;
+  display: block;
+}

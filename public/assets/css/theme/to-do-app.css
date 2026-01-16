@@ -1,0 +1,158 @@
+
+.to-do-app-section {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.to-do-app-content-wrap {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.to-do-app-content-box {
+  width: 1140px;
+  max-width: 100%;
+  background: #1138be;
+  margin: 0 auto;
+  padding: 120px 80px;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.to-do-left-block {
+  width: 50%;
+}
+
+.to-do-left-block h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.to-do-left-block p {
+  font-size: 18px;
+  color: #fff;
+  max-width: 420px;
+  margin-bottom: 30px;
+}
+
+.to-do-app-link img {
+  width: 180px;
+  cursor: pointer;
+}
+
+.to-do-right-block {
+  width: 26.5%;
+  max-width: 300px;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.to-do-right-block .main-image {
+  width: 260px;
+  z-index: 1;
+}
+
+.to-do-right-block .top-image {
+  position: absolute;
+  top: 69%;
+  transform: scale(0.74) translateY(calc(-50% - 30px));
+  transition: transform 0.6s ease;
+  z-index: 3;
+}
+
+.to-do-right-block .top-image img {
+  max-width: 340px;
+  border-radius: 5px;
+  transform: scale(1.2) translateY(calc(-50% - 15px));
+}
+
+
+@media (max-width: 1200px) {
+  .to-do-app-content-box {
+    padding: 100px 60px;
+  }
+
+  .to-do-left-block h2 {
+    font-size: 40px;
+  }
+
+  .to-do-right-block {
+    right: 5%;
+  }
+}
+
+@media (max-width: 991px) {
+  .to-do-app-content-box {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 40px;
+  }
+
+  .to-do-left-block {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .to-do-left-block p {
+    margin: 0 auto 30px;
+  }
+
+  .to-do-right-block {
+    position: relative;
+    right: auto;
+    width: 100%;
+    max-width: none;
+    height: auto;
+  }
+
+  .to-do-right-block .main-image {
+    width: 220px;
+  }
+
+  .to-do-right-block .top-image {
+    top: 62%;
+  }
+}
+
+@media (max-width: 575px) {
+  .to-do-app-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .to-do-app-content-box {
+    padding: 60px 20px;
+    border-radius: 20px;
+  }
+
+  .to-do-left-block h2 {
+    font-size: 30px;
+  }
+
+  .to-do-left-block p {
+    font-size: 16px;
+  }
+
+  .to-do-app-link img {
+    width: 150px;
+  }
+
+  .to-do-right-block .main-image {
+    width: 180px;
+  }
+
+  .to-do-right-block .top-image img {
+    max-width: 240px;
+    transform: scale(1) translateY(-50%);
+  }
+}

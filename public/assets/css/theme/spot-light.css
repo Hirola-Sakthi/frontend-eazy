@@ -1,0 +1,93 @@
+.spotlight-section {
+  padding: 50px 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.spotlight-container {
+  max-width: 1280px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 60px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.spotlight-left {
+  position: relative;
+}
+
+.spotlight-left-inner {
+  will-change: position, top;
+}
+.spotlight-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: #1338fe;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.spotlight-title {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.spotlight-right {
+  column-count: 2;
+  column-gap: 24px;
+}
+
+.spotlight-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 14px;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  margin-bottom: 24px;
+  break-inside: avoid;
+}
+
+.spotlight-card h4 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000;
+}
+
+.spotlight-card p {
+  margin-top: 10px;
+  line-height: 28px;
+  color: #484848;
+}
+
+.spotlight-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+  .spotlight-container {
+    grid-template-columns: 1fr;
+  }
+
+  .spotlight-right {
+    column-count: 1;
+  }
+}
+
+@media (max-width: 1439px) {
+  .spotlight-left-inner {
+    position: relative !important;
+    top: 0 !important;
+    width: auto !important;
+  }
+}
