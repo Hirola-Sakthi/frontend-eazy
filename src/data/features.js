@@ -100,7 +100,7 @@ export const features2 = [
 export const features3 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.svg",
+    imgSrc: "/assets/images/template/smart-feature-img-1.jpeg",
     altText: "People & Workforce",
     step: "01.",
     title: "People & Workforce",
@@ -120,7 +120,7 @@ export const features3 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/feature-02.svg",
+    imgSrc: "/assets/images/template/smart-feature-img-2.jpeg",
     altText: "Sales & Customer Growth",
     step: "02.",
     title: "Sales & Customer Growth",
@@ -140,7 +140,7 @@ export const features3 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-03.svg",
+    imgSrc: "/assets/images/template/smart-feature-img-3.jpeg",
     altText: "Finance & Operations",
     step: "03.",
     title: "Finance & Operations",
@@ -160,7 +160,7 @@ export const features3 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/feature-04.svg",
+    imgSrc: "/assets/images/template/smart-feature-img-4.jpeg",
     altText: "Projects & Productivity",
     step: "04.",
     title: "Projects & Productivity",

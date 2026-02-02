@@ -5,6 +5,7 @@
   padding: clamp(50px, 6vw, 90px) 20px;
   position: relative;
   overflow: hidden;
+  margin-top: 165px;
 }
 
 .eazy-grow-title {

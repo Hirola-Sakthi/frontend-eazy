@@ -1,0 +1,166 @@
+.human-agents-section {
+  position: relative;
+  padding: 80px 20px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.human-agents-content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.human-agents-title {
+  font-size: 47px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #111;
+}
+
+.human-agents-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 28px;
+}
+
+.human-agents-center-image {
+  width: 64px;
+  margin: 0 auto 24px;
+  display: block;
+}
+
+.human-agents-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.human-agents-btn-primary,
+.human-agents-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.human-agents-btn-primary {
+  background: linear-gradient(180deg, #1338fe 0%, #2a2a72 100%);
+  color: #fff;
+  border: none;
+}
+
+.human-agents-btn-outline {
+  background: transparent;
+  color: #000;
+  border: none;
+}
+
+.human-agents-image {
+  position: absolute;
+  width: 600px;
+  max-width: 100%;
+  transition: all 0.3s ease;
+}
+
+.human-agents-left-image {
+  top: 55%;
+  left: -220px;
+}
+
+.human-agents-right-image {
+  top: 10%;
+  right: -250px;
+}
+
+@media (max-width: 1024px) {
+  .human-agents-title {
+    font-size: 38px;
+  }
+
+  .human-agents-description {
+    font-size: 16px;
+  }
+
+  .human-agents-image {
+    width: 420px;
+  }
+
+  .human-agents-left-image {
+    left: -160px;
+    top: 55%;
+  }
+
+  .human-agents-right-image {
+    right: -170px;
+    top: 75px;
+  }
+}
+
+@media (max-width: 768px) {
+  .human-agents-section {
+    padding: 60px 16px;
+  }
+
+  .human-agents-title {
+    font-size: 30px;
+    max-width: 450px;
+    margin: 15px auto;
+  }
+
+  .human-agents-description {
+    font-size: 15px;
+  }
+
+  .human-agents-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .human-agents-btn-primary,
+  .human-agents-btn-outline {
+    width: 50%;
+  }
+
+  .human-agents-image {
+    width: 280px;
+    opacity: 0.25;
+  }
+
+  .human-agents-left-image {
+    left: -120px;
+    top: 45%;
+  }
+
+  .human-agents-right-image {
+    right: -120px;
+    top: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .human-agents-title {
+    font-size: 26px;
+  }
+
+  .human-agents-description {
+    font-size: 14px;
+  }
+
+  .human-agents-image {
+    display: none;
+  }
+    .human-agents-btn-primary,
+  .human-agents-btn-outline {
+    width: 86%;
+  }
+}

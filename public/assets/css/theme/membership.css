@@ -1,0 +1,220 @@
+.membership-section {
+  padding: 100px 40px;
+  background: #ffffff;
+}
+
+.membership-container {
+  max-width: 1200px;
+  margin: auto;
+}
+.membership-row {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.membership-first-column {
+  flex: 1;
+}
+
+.membership-small-title {
+  padding: 6px 16px;
+  border: 1px solid #1338fe;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #1338fe;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.membership-title {
+  font-size: 93px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  margin-top: 20px;
+  color: #111;
+  line-height: 90px;
+}
+
+.membership-subtitle {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.membership-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.membership-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(180deg, #1338fe 0%, #2a2a72 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.membership-second-column {
+  flex: 1;
+  position: relative;
+  min-height: 820px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.membership-image {
+  width: 900px;
+  height: 900px;
+  object-fit: cover;
+  border-radius: 18px;
+  padding: 24px;
+}
+
+
+@media (min-width: 1600px) {
+  .membership-title {
+    font-size: 96px;
+    line-height: 92px;
+  }
+
+  .membership-image {
+    width: 900px;
+    height: 900px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .membership-row {
+    gap: 40px;
+  }
+
+  .membership-title {
+    font-size: 72px;
+    line-height: 74px;
+  }
+
+  .membership-image {
+    width: 650px;
+    height: 650px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .membership-section {
+    padding: 80px 32px;
+  }
+
+  .membership-row {
+    gap: 0px;
+  }
+
+  .membership-title {
+    font-size: 60px;
+    line-height: 64px;
+  }
+
+  .membership-subtitle {
+    font-size: 17px;
+  }
+
+  .membership-image {
+    width: 630px;
+    height: 630px;
+  }
+
+  .membership-second-column {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 991px) {
+  .membership-row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .membership-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .membership-title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .membership-subtitle {
+    font-size: 16px;
+  }
+
+  .membership-second-column {
+    min-height: auto;
+    margin-top: 40px;
+  }
+  .membership-minititle{
+  justify-content: center;
+}
+  .membership-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: -55px;
+  }
+}
+
+@media (max-width: 767px) {
+  .membership-section {
+    padding: 60px 20px;
+  }
+
+  .membership-small-title {
+    font-size: 13px;
+    padding: 5px 14px;
+    margin-bottom: 20px;
+  }
+
+  .membership-title {
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 10px;
+  }
+
+  .membership-subtitle {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .membership-btn-primary {
+    width: 65%;
+    justify-content: center;
+  }
+
+  .membership-image {
+    width: 600px;
+    border-radius: 14px;
+    padding: 16px;
+    margin-top: -55px;
+  }
+}
+
+@media (max-width: 480px) {
+  .membership-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .membership-subtitle {
+    font-size: 14px;
+  }
+}

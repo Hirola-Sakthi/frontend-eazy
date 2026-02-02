@@ -25,7 +25,7 @@ export default function AutomatedShare() {
   return (
     <section className="automated-share-section">
       <div className="automated-share-content-wrap">
-        <div className="automated-title-group">
+        <div className="automated-share-title-group">
           <h2 className="automated-share-title">
             <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
               {sectionContent.titleHighlight}
@@ -41,13 +41,13 @@ export default function AutomatedShare() {
         </div>
 
         <div className="automated-share-main">
-          <img src={mainImage} alt="Automated Share" className="main-image" />
+          <img src={mainImage} alt="Automated Share" className="automated-share-main-image" />
 
-          <ul className="automated-icon-group">
+          <ul className="automated-share-icon-group">
             {features.map((feature, idx) => (
               <li
                 key={idx}
-                className={`feature-item automated-share-item-${idx + 1}`}
+                className={`automated-share-feature-item automated-share-item-${idx + 1}`}
               >
                 <img src={feature.icon} alt={feature.text} />
                 <span>{feature.text}</span>
@@ -55,10 +55,10 @@ export default function AutomatedShare() {
             ))}
           </ul>
 
-          <div className="automated-circle">
-            <span className="automated-circle-1"></span>
-            <span className="automated-circle-2"></span>
-            <span className="automated-circle-3"></span>
+          <div className="automated-share-circle">
+            <span className="automated-share-circle-1"></span>
+            <span className="automated-share-circle-2"></span>
+            <span className="automated-share-circle-3"></span>
           </div>
         </div>
       </div>

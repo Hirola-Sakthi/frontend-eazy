@@ -1,0 +1,195 @@
+.invest-smarter-section {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 98px 64px 196px;
+}
+
+.invest-smarter-container {
+  max-width: 1216px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.invest-smarter-first-content {
+  flex: 1;
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.invest-smarter-top-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.invest-smarter-eyebrow {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1338fe;
+}
+
+.invest-smarter-title {
+  font-size: 50px;
+  color: #111;
+  letter-spacing: -1.8px;
+  line-height: 1.1;
+  max-width: 650px;
+  font-weight: 500;
+}
+
+.invest-smarter-desc {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-width: 520px;
+}
+
+.invest-smarter-bottom-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.invest-smarter-card-container {
+  width: 100%;
+}
+
+.invest-smarter-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.3s ease;
+}
+
+.invest-smarter-card:hover {
+  transform: translateY(-4px);
+}
+
+.invest-smarter-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+}
+
+.invest-smarter-card-header h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #111;
+  margin-bottom: 0px;
+}
+
+.invest-smarter-card-header svg {
+  color: #1338fe;
+  transition: transform 0.3s ease;
+}
+
+.invest-smarter-card:hover svg {
+  transform: translate(4px, -4px);
+}
+
+.invest-smarter-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.invest-smarter-second-content {
+  width: 568px;
+  height: 532px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.invest-smarter-img-container {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.invest-smarter-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 1440px) {
+  .invest-smarter-title {
+    font-size: 56px;
+  }
+
+  .invest-smarter-desc {
+    font-size: 19px;
+  }
+}
+@media (max-width: 1024px) {
+  .invest-smarter-container {
+    flex-direction: column;
+    gap: 56px;
+  }
+
+  .invest-smarter-first-content {
+    max-width: 100%;
+  }
+
+  .invest-smarter-second-content {
+    width: 100%;
+    max-width: 720px;
+    aspect-ratio: 16 / 9;
+  }
+
+  .invest-smarter-title {
+    font-size: 42px;
+  }
+}
+@media (max-width: 768px) {
+  .invest-smarter-section {
+    padding: 72px 32px 120px;
+  }
+
+  .invest-smarter-title {
+    font-size: 38px;
+  }
+
+  .invest-smarter-bottom-content {
+    gap: 24px;
+  }
+}
+@media (max-width: 640px) {
+  .invest-smarter-section {
+    padding: 64px 20px 96px;
+  }
+
+  .invest-smarter-title {
+    font-size: 32px;
+    letter-spacing: -1px;
+  }
+
+  .invest-smarter-desc {
+    font-size: 16px;
+  }
+
+  .invest-smarter-bottom-content {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .invest-smarter-second-content {
+    aspect-ratio: 4 / 3;
+  }
+  .invest-smarter-img{
+    height: 50%;
+  }
+
+}

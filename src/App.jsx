@@ -44,6 +44,14 @@ import ServicesPage from "./pages/services"
 import ServiceDetail from "./pages/services/ServiceDetail";
 import DynamicPage from "./pages/DynamicPage";
 import DesignPage from "./pages/innerPages/design-page";
+import DesignPage2 from "./pages/innerPages/design-page-2";
+import DesignPage3 from "./pages/innerPages/design-page-3";
+import DesignPage4 from "./pages/innerPages/design-page-4";
+import DesignPage5 from "./pages/innerPages/design-page-5";
+import DesignPage6 from "./pages/innerPages/design-page-6";
+import DesignPage7 from "./pages/innerPages/design-page-7";
+import DesignPage8 from "./pages/innerPages/design-page-8";
+import DesignPage9 from "./pages/innerPages/design-page-9";
 
 function App() {
   const { pathname } = useLocation();
@@ -144,6 +152,19 @@ function App() {
               <Route path="about-us" element={<AboutPage />} />
               <Route path="page-career" element={<CareerPage />} />
               <Route path="design-page" element={<DesignPage />} />
+              <Route path="design-page-2" element={<DesignPage2 />} />
+              <Route path="design-page-3" element={<DesignPage3 />} />
+              <Route path="design-page-4" element={<DesignPage4 />} />
+              <Route path="design-page-5" element={<DesignPage5 />} />
+              <Route path="design-page-6" element={<DesignPage6 />} />
+              <Route path="design-page-7" element={<DesignPage7 />} />
+              <Route path="design-page-8" element={<DesignPage8 />} />
+              <Route path="design-page-9" element={<DesignPage9 />} />
+
+
+
+
+
 
               {/* <Route path="page-career-new" element={<CareerPortalPage />} /> */}
               <Route path="contact-us" element={<ContactPage />} />

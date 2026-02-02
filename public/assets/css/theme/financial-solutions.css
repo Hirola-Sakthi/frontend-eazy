@@ -1,0 +1,241 @@
+.financial-solution-section {
+  padding: 60px 40px;
+  background: #ffffff;
+}
+
+.financial-solution-container {
+  max-width: 1200px;
+  margin: auto;
+}
+.financial-solution-row {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.financial-solution-first-column {
+  flex: 1;
+}
+
+.financial-solution-small-title {
+  padding: 6px 16px;
+  border: 1px solid #1338fe;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #1338fe;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.financial-solution-title {
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  margin-top: 20px;
+  color: #111;
+  line-height: 80px;
+}
+
+.financial-solution-subtitle {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.financial-solution-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.financial-solution-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(180deg, #1338fe 0%, #2a2a72 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.financial-solution-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.financial-solution-second-column {
+  flex: 1;
+  position: relative;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.financial-solution-dot-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(
+    circle at center,
+    rgb(19 56 254 / 16%) 0,
+    rgb(19 56 254 / 16%) 1px,
+    transparent 1px
+  );
+  background-size: 12px 12px;
+  background-position: center;
+}
+
+.financial-solution-image {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+  border-radius: 18px;
+  padding: 24px;
+}
+
+@media (min-width: 1400px) {
+  .financial-solution-container {
+    max-width: 1320px;
+  }
+
+  .financial-solution-title {
+    font-size: 81px;
+  }
+
+  .financial-solution-subtitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .financial-solution-section {
+    padding: 60px 30px;
+  }
+
+  .financial-solution-title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .financial-solution-section {
+    padding: 50px 24px;
+  }
+
+  .financial-solution-row {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .financial-solution-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .financial-solution-title {
+    font-size: 34px;
+  }
+
+  .financial-solution-subtitle {
+    font-size: 17px;
+    max-width: 700px;
+  }
+
+  .financial-solution-minititle{
+    justify-content: center;
+  }
+
+  .financial-solution-second-column {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .financial-solution-section {
+    padding: 40px 20px;
+  }
+
+  .financial-solution-small-title {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .financial-solution-title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .financial-solution-subtitle {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .financial-solution-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .financial-solution-btn-primary,
+  .financial-solution-btn-outline {
+    width: 35%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .financial-solution-section {
+    padding: 32px 16px;
+  }
+
+  .financial-solution-title {
+    font-size: 30px;
+  }
+  .financial-solution-btn-primary {
+    width: 70%;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  .financial-solution-btn-outline {
+    width: 100%;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  .financial-solution-subtitle {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .financial-solution-image {
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  .financial-solution-dot-grid::before {
+    background-size: 10px 10px;
+  }
+}

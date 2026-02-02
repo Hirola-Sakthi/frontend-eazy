@@ -1,0 +1,156 @@
+
+.smarter-decision-section {
+  position: relative;
+  padding: 50px 20px;
+  background: #ffffff;
+  overflow: hidden;
+}
+.smarter-decision-bg-images {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  
+}
+
+.smarter-decision-float-img {
+  position: absolute;
+  width: 80px;
+  opacity: 0.9;
+  animation: float 6s ease-in-out infinite;
+  background: #fff;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+.smarter-decision-img-1 {
+  top: 10%;
+  left: 20%;
+  animation-delay: 0s;
+}
+
+.smarter-decision-img-2 {
+  top: 10%;
+  right: 20%;
+  width: 80px;
+  animation-delay: 1s;
+}
+
+.smarter-decision-img-3 {
+  bottom: 10%;
+  left: 20%;
+  width: 80px;
+  animation-delay: 2s;
+}
+
+.smarter-decision-img-4 {
+  bottom: 12%;
+  right: 20%;
+  width:80px;
+  animation-delay: 3s;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-18px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.smarter-decision-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.smarter-decision-trusted {
+  padding: 6px 16px;
+  border: 1px solid #1338fe;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #1338fe;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.smarter-decision-title {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 58px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+
+.smarter-decision-description {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.smarter-decision-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(180deg, #1338fe 0%, #2a2a72 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.smarter-decision-bottom {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.smarter-decision-bottom-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+}
+
+.smarter-decision-bottom-icon {
+  width: 36px;
+  height: 36px;
+  color: #1338fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .smarter-decision-float-img {
+    display: none;
+  }
+
+  .smarter-decision-title {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .smarter-decision-description {
+    font-size: 16px;
+  }
+}

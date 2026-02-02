@@ -12,7 +12,7 @@
   margin-bottom: 70px;
 }
 
-.automated-title-group {
+.automated-share-title-group {
   margin-bottom: 130px;
 }
 
@@ -36,14 +36,14 @@
   overflow: visible;
 }
 
-.main-image {
+.automated-share-main-image {
   width: 300px;
   height: auto;
   position: relative;
   z-index: 3;
 }
 
-.automated-icon-group {
+.automated-share-icon-group {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -56,7 +56,7 @@
   z-index: 5;
 }
 
-.feature-item {
+.automated-share-feature-item {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -79,7 +79,7 @@
   }
 }
 
-.feature-item img {
+.automated-share-feature-item img {
   width: 60px;
   height: 60px;
   margin-bottom: 8px;
@@ -114,7 +114,7 @@
   left: 75%;
 }
 
-.automated-circle {
+.automated-share-circle {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -122,26 +122,26 @@
   z-index: 1;
 }
 
-.automated-circle span {
+.automated-share-circle span {
   position: absolute;
   border-radius: 50%;
 }
 
-.automated-circle-1 {
+.automated-share-circle-1 {
   width: 370px;
   height: 370px;
   background: #ddeafe;
   transform: translate(-50%, -50%);
 }
 
-.automated-circle-2 {
+.automated-share-circle-2 {
   width: 530px;
   height: 530px;
   border: 1px solid #ddeafe;
   transform: translate(-50%, -50%);
 }
 
-.automated-circle-3 {
+.automated-share-circle-3 {
   width: 750px;
   height: 750px;
   border: 1px solid #ddeafe;
@@ -149,25 +149,25 @@
 }
 
 @media (max-width: 1200px) {
-  .automated-icon-group {
+  .automated-share-icon-group {
     width: 750px;
     height: 750px;
   }
 
-  .automated-circle-1 {
+  .automated-share-circle-1 {
     width: 300px;
     height: 300px;
   }
-  .automated-circle-2 {
+  .automated-share-circle-2 {
     width: 430px;
     height: 430px;
   }
-  .automated-circle-3 {
+  .automated-share-circle-3 {
     width: 600px;
     height: 600px;
   }
 
-  .main-image {
+  .automated-share-main-image {
     width: 260px;
   }
 }
@@ -177,7 +177,7 @@
     padding: 60px 20px;
   }
 
-  .automated-title-group {
+  .automated-share-title-group {
     margin-bottom: 70px;
   }
 
@@ -189,36 +189,36 @@
     font-size: 16px;
   }
 
-  .automated-icon-group {
+  .automated-share-icon-group {
     width: 520px;
     height: 520px;
   }
 
-  .automated-circle-1 {
+  .automated-share-circle-1 {
     width: 220px;
     height: 220px;
   }
-  .automated-circle-2 {
+  .automated-share-circle-2 {
     width: 320px;
     height: 320px;
   }
-  .automated-circle-3 {
+  .automated-share-circle-3 {
     width: 460px;
     height: 460px;
   }
 
-  .main-image {
+  .automated-share-main-image {
     width: 220px;
   }
 
-  .feature-item img {
+  .automated-share-feature-item img {
     width: 50px;
     height: 50px;
   }
 }
 
 @media (max-width: 768px) {
-  .automated-title-group {
+  .automated-share-title-group {
     margin-bottom: 80px;
   }
 
@@ -230,33 +230,33 @@
     font-size: 15px;
   }
 
-  .automated-icon-group {
+  .automated-share-icon-group {
     width: 535px;
     height: 360px;
   }
 
-  .automated-circle-1 {
+  .automated-share-circle-1 {
     width: 260px;
     height: 260px;
   }
-  .automated-circle-2 {
+  .automated-share-circle-2 {
     width: 340px;
     height: 340px;
   }
-  .automated-circle-3 {
+  .automated-share-circle-3 {
     width: 440px;
     height: 440px;
   }
 
-  .main-image {
+  .automated-share-main-image {
     width: 180px;
   }
 
-  .feature-item {
+  .automated-share-feature-item {
     font-size: 12px;
   }
 
-  .feature-item img {
+  .automated-share-feature-item img {
     width: 44px;
     height: 44px;
     padding: 8px;
@@ -300,21 +300,21 @@
     font-size: 14px;
   }
 
-  .automated-icon-group {
+  .automated-share-icon-group {
     width: 280px;
     height: 280px;
   }
-  .automated-circle {
+  .automated-share-circle {
     display: none;
   }
 
-  .main-image {
+  .automated-share-main-image {
     width: 150px;
   }
-  .automated-icon-group {
+  .automated-share-icon-group {
     display: none;
   }
-  .automated-title-group {
+  .automated-share-title-group {
     margin-bottom: 30px;
   }
   .automated-share-content-wrap {

@@ -25,6 +25,32 @@ import SmarterBanner from "@/components/innerpages/features/SmarterBanner";
 import AutomatedShare from "@/components/innerpages/features/AutomatedShare";
 import ToDoApp from "@/components/innerpages/features/ToDoApp";
 import OnePlatform from "@/components/innerpages/features/OnePlatform";
+import Compliant from "@/components/innerpages/features/Compliant";
+import SmartDecision from "@/components/innerpages/features/SmartDecision";
+import FinanceManagement from "@/components/innerpages/features/FinanceManagement";
+import Capabilities from "@/components/innerpages/features/Capabilities";
+import MarqueePattern from "@/components/innerpages/features/MarqueePattern";
+import PrivacyPartner from "@/components/innerpages/features/PrivacyPartner";
+import RevenueManagement from "@/components/innerpages/features/RevenueManagement";
+import Membership from "@/components/innerpages/features/Membership";
+import InstantPayments from "@/components/innerpages/features/InstantPayments";
+import SaveMoney from "@/components/innerpages/features/SaveMoney";
+import Possibilities from "@/components/innerpages/features/Possibilities";
+import Decodable from "@/components/innerpages/features/Decodable";
+import FinancialSolution from "@/components/innerpages/features/FinancialSolutions";
+import PowerfulNetwork from "@/components/innerpages/features/PowerfulNetwork";
+import HumanAgents from "@/components/innerpages/features/HumanAgents";
+import Collaboration from "@/components/innerpages/features/Collaboration";
+import MeetingIntegration from "@/components/innerpages/features/MeetingIntegration";
+import Interact from "@/components/innerpages/features/Interact";
+import GraceMeet from "@/components/innerpages/features/GraceMeet";
+import InvestSmarter from "@/components/innerpages/features/InvestSmarter";
+import PartnerProgram from "@/components/innerpages/features/PartnerProgram";
+import MeasureShips from "@/components/innerpages/features/MeasureShips";
+import TrainingSystem from "@/components/innerpages/features/TrainingSystem";
+import CloudBased from "@/components/innerpages/features/CloudBased";
+import FabricSection from "@/components/innerpages/features/FabricSection";
+
 const metadata = {
   title:
     "Career || Eazy - Full-featured, professional-looking software, saas and startup reactjs template.",
@@ -53,6 +79,31 @@ export default function DesignPage() {
           <AutomatedShare/>
           <ToDoApp/>
           <OnePlatform/>
+          <Compliant/>
+          <SmartDecision/>
+          <FinanceManagement/>
+          <Capabilities/>
+          <MarqueePattern/>
+          <PrivacyPartner/>
+          <RevenueManagement/>
+          <Membership/>
+          <InstantPayments/>
+          <SaveMoney/>
+          <Possibilities/>
+          <Decodable/>
+          <FabricSection/>
+          <FinancialSolution/>
+          <PowerfulNetwork/>
+          <HumanAgents/>
+          <Collaboration/>
+          <MeetingIntegration/>
+          <Interact/>
+          <GraceMeet/>
+          <InvestSmarter/>
+          <PartnerProgram/>
+          <MeasureShips/>
+          <TrainingSystem/>
+          <CloudBased/>
         </div>
         <Footer1 />
       </div>

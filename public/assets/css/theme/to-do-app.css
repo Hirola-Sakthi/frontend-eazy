@@ -13,7 +13,7 @@
 .to-do-app-content-box {
   width: 1140px;
   max-width: 100%;
-  background: #1138be;
+  background: linear-gradient(180deg, #1338fe 0%, #2a2a72 100%);
   margin: 0 auto;
   padding: 120px 80px;
   border-radius: 30px;

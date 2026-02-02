@@ -24,7 +24,7 @@ export default function Cta2() {
                   data-uc-toggle=""
                 >
                   <i className="icon-1 unicon-play-outline fw-medium text-white" />
-                  <span className="text-white" style={{lineHeight:"20px"}}>Start Free Trial</span>
+                  <span className="text-white" style={{lineHeight:"20px",whiteSpace:"nowrap"}}>Start Free Trial</span>
                 </a>
                 <Link
                   to={`#`}

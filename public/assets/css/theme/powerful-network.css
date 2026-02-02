@@ -1,0 +1,129 @@
+.powerful-network-section {
+  padding: 60px 40px;
+  background: #ffffff;
+}
+
+.powerful-network-container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.powerful-network-row {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.powerful-network-first-column {
+  flex: 1;
+}
+
+.powerful-network-title {
+  font-size: 45px;
+  font-weight: 500;
+  margin: 20px 0 16px;
+  color: #111;
+}
+
+.powerful-network-highlight {
+  display: inline-block;
+  padding: 0 8px;
+  background: #eef1ff;
+  color: #1338fe;
+  transform: rotate(-1deg);
+  border-radius: 6px;
+}
+
+.powerful-network-subtitle {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+  margin-top: 30px;
+}
+
+.powerful-network-second-column {
+  flex: 1;
+  position: relative;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.powerful-network-second-column::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/assets/images/common/powerful-network-bg-img-2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* opacity: 0.25; */
+  z-index: 0;
+  width: 700px;
+}
+
+.powerful-network-image {
+  position: relative;
+  z-index: 1;
+  max-width: 60%;
+  border-radius: 18px;
+  padding: 24px;
+}
+@media (max-width: 1024px) {
+  .powerful-network-image {
+    max-width: 65%;
+  }
+}
+
+@media (max-width: 992px) {
+  .powerful-network-row {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .powerful-network-title {
+    font-size: 34px;
+  }
+
+  .powerful-network-subtitle {
+    font-size: 17px;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .powerful-network-second-column {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .powerful-network-title {
+    font-size: 28px;
+  }
+
+  .powerful-network-subtitle {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .powerful-network-image {
+    max-width: 75%;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .powerful-network-section {
+    padding: 32px 16px;
+  }
+
+  .powerful-network-title {
+    font-size: 26px;
+  }
+
+  .powerful-network-image {
+    max-width: 90%;
+  }
+}
